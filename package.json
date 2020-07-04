@@ -1,6 +1,6 @@
 {
   "name": "@pontte/eslint-config",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "A extensible shared configuration for ESLint.",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
