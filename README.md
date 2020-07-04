@@ -1,32 +1,29 @@
-# Stardust Front-End Template ✨
+# Eslint Config 🚔
 
-Stardust is the next generation of projects of the @pontte. It brings you an entire configuration to start a new project in a button click distance.
+A extensible shared configuration for [ESLint](https://eslint.org).
 
-![](https://github.com/pontte/stardust/workflows/promote-prod-from-preprod-branch/badge.svg)
+![](https://github.com/pontte/eslint-config/workflows/promote-prod-from-preprod-branch/badge.svg)
 
-## Getting Started
+## Install
 
-You **must change** some information in the `package.json`:
+### npm
 
-- `name`
-- `description`
-- `files`
-- `homepage`
-- `main`
-- `repository.url`
-- `bugs.url`
-- `homepage`
+```sh
+npm install @pontte/eslint-config --save-dev
+```
 
-If your project will be a consumable one, don't forget to add distribution folder into `files` and specify `main` file.
+### yarn
 
-You **can change** but will be need to change Github Actions workflows:
+```sh
+yarn add @pontte/eslint-config --dev
+```
 
-- `scripts.build`
-- `scripts.test-lint`
-- `scripts.test-unit`
+## Usage
 
-You **can't change**:
+Add `@pontte/eslint-config` to your `.eslintrc.js` or [ESLint](https://eslint.org/docs/user-guide/configuring) configuration file.
 
-- `version`
-
-Any other changes in `package.json` or Github Actions workflows **could break automation**. Be careful.
+```js
+module.exports = {
+  extends: ['@pontte/eslint-config'],
+};
+```
