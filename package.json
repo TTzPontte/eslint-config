@@ -14,7 +14,6 @@
     "url": "https://github.com/pontte/eslint-config/issues"
   },
   "homepage": "https://github.com/pontte/eslint-config#readme",
-  "main": "dist/index.js",
   "files": [
     "dist/*",
     "LICENSE",
