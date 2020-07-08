@@ -1,3 +1,11 @@
+# [1.0.0-alpha.4](https://github.com/pontte/eslint-config/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2020-07-08)
+
+
+### Bug Fixes
+
+* change import/node rules ([d646a47](https://github.com/pontte/eslint-config/commit/d646a47fdc8ac2c984882d632d3c5656c64b8c84))
+* change path of `react` rules ([0065e51](https://github.com/pontte/eslint-config/commit/0065e510635f5114096be5a88524d2a296ff029d))
+
 # [1.0.0-alpha.3](https://github.com/pontte/eslint-config/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2020-07-04)
 
 
