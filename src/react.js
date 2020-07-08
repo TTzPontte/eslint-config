@@ -1,5 +1,19 @@
+const rules = [
+  './rules/error',
+  './rules/import',
+  './rules/node',
+  './rules/practices',
+  './rules/promises',
+  './rules/style',
+  './rules/variable',
+].map(require.resolve);
+
 module.exports = {
-  extends: ['airbnb'],
+  root: true,
+  extends: ['airbnb', ...rules],
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
   env: {
     browser: true,
   },
