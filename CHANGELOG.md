@@ -1,3 +1,10 @@
+# [1.0.0-alpha.5](https://github.com/pontte/eslint-config/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2020-08-11)
+
+
+### Features
+
+* add rules for Cypress and improve output ([b724f10](https://github.com/pontte/eslint-config/commit/b724f10e18d1b901cb8ca900fe490c446ea53ea8))
+
 # [1.0.0-alpha.4](https://github.com/pontte/eslint-config/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2020-07-08)
 
 
