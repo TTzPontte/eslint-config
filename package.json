@@ -15,11 +15,12 @@
   },
   "homepage": "https://github.com/pontte/eslint-config#readme",
   "files": [
-    "dist/*",
-    "LICENSE",
-    "CHANGELOG.md",
-    "README.md"
+    "dist"
   ],
+  "main": "index.js",
+  "directories": {
+    "lib": "dist"
+  },
   "scripts": {
     "commit": "git-cz",
     "build": "sh scripts/build",
@@ -30,6 +31,7 @@
     "eslint": "^7.4.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-cypress": "^2.11.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.17.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",

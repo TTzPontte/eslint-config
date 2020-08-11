@@ -1,19 +1,8 @@
-const rules = [
-  './rules/error',
-  './rules/import',
-  './rules/node',
-  './rules/practices',
-  './rules/promises',
-  './rules/style',
-  './rules/variable',
-].map(require.resolve);
+const rules = require.resolve('rules');
 
-module.exports = {
+const config = {
   root: true,
-  extends: ['airbnb', ...rules],
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
+  extends: ['airbnb', rules],
   env: {
     browser: true,
   },
@@ -31,3 +20,5 @@ module.exports = {
     'react/jsx-closing-bracket-location': 'off',
   },
 };
+
+module.exports = config;

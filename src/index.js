@@ -1,17 +1,8 @@
-const rules = [
-  './rules/error',
-  './rules/import',
-  './rules/node',
-  './rules/practices',
-  './rules/promises',
-  './rules/style',
-  './rules/variable',
-].map(require.resolve);
+const rules = require.resolve('rules');
 
-module.exports = {
+const config = {
   root: true,
-  extends: ['airbnb-base', ...rules],
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
+  extends: ['airbnb-base', rules],
 };
+
+module.exports = config;
