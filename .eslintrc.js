@@ -1,3 +1,5 @@
+const rules = ['./src', './src/prettier'].map(require.resolve);
+
 module.exports = {
-  extends: [require.resolve('./src/index')],
+  extends: rules,
 };

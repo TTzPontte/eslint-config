@@ -1,15 +1,15 @@
 const rules = [
-  './rules/error',
-  './rules/import',
-  './rules/node',
-  './rules/practices',
-  './rules/promises',
-  './rules/style',
-  './rules/variable',
+  './error',
+  './import',
+  './node',
+  './practices',
+  './promises',
+  './style',
+  './variable',
 ].map(require.resolve);
 
 const config = {
-  extends: ['airbnb-base', ...rules],
+  extends: rules,
   parserOptions: {
     parser: 'babel-eslint',
   },
