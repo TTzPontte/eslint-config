@@ -1,7 +1,5 @@
-const rules = require.resolve('rules');
-
 const config = {
-  extends: ['plugin:jest/all', rules],
+  extends: ['plugin:jest/all'],
   plugins: ['jest'],
   env: {
     'jest/globals': true,
