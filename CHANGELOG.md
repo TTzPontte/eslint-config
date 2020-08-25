@@ -1,3 +1,15 @@
+# [1.0.0-alpha.6](https://github.com/pontte/eslint-config/compare/1.0.0-alpha.5...1.0.0-alpha.6) (2020-08-25)
+
+
+### Bug Fixes
+
+* add Prettier config and improve requires ([02c5657](https://github.com/pontte/eslint-config/commit/02c565788630336ea896c87c67c57b7c80ef97c0))
+
+
+### Features
+
+* add Prettier and some adjustments ([d1708cd](https://github.com/pontte/eslint-config/commit/d1708cd244199a0742eb7a85b78b9dac6f273640))
+
 # [1.0.0-alpha.5](https://github.com/pontte/eslint-config/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2020-08-11)
 
 
